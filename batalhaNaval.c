@@ -11,7 +11,18 @@ int main() {
  
     tabuleiro[5][6] = 3;
     tabuleiro[6][6] = 3;
-     tabuleiro[7][6] = 3;
+    tabuleiro[7][6] = 3;
+
+    tabuleiro[0][0] = 3;
+    tabuleiro[1][1] = 3;
+    tabuleiro[2][2] = 3;
+
+    tabuleiro[2][2] = 3;
+    tabuleiro[1][3] = 3;
+    tabuleiro[0][4] = 3;
+      
+
+  
     
     // Imprime o tabuleiro
     printf("TABULEIRO BATALHA NAVAL\n");
